@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { EMAILJS_CONFIG } from './emailjs-config';
 import './App.css';
 
+// App Component
 const projects = [
   {
     icon: '☕',
@@ -923,3 +924,5 @@ function App() {
 }
 
 export default App;
+
+
