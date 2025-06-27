@@ -719,7 +719,7 @@ function App() {
                 <svg width="20" height="20" fill="none" stroke="#a084fa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="4"/><path d="M22 6l-10 7L2 6"/></svg>
                 princetew2001@gmail.com
               </a>
-              <a href="https://www.linkedin.com/in/prince-tewatia-181a42192" target="_blank" rel="noopener noreferrer" style={{ color: '#4fc3f7', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 8 }}>
+              <a href="https://www.linkedin.com/in/prince-tewatia-181a42192/" target="_blank" rel="noopener noreferrer" style={{ color: '#4fc3f7', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 8 }}>
                 <svg width="20" height="20" fill="none" stroke="#4fc3f7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 8a4 4 0 0 1 4 4v6M2 8v10M8 8v10"/></svg>
                 LinkedIn
               </a>
@@ -883,7 +883,7 @@ function App() {
             App and Frontend Developer passionate about building scalable solutions
           </div>
           <div style={{ display: 'flex', gap: 24, flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', marginBottom: 24 }}>
-            <a href="https://www.linkedin.com/in/prince-tewatia-181a42192" target="_blank" rel="noopener noreferrer" style={{ color: '#a084fa', textDecoration: 'none', fontWeight: 600, fontSize: 28 }} title="LinkedIn" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/prince-tewatia-181a42192/" target="_blank" rel="noopener noreferrer" style={{ color: '#a084fa', textDecoration: 'none', fontWeight: 600, fontSize: 28 }} title="LinkedIn" aria-label="LinkedIn">
               <svg width="28" height="28" fill="none" stroke="#a084fa" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 8a4 4 0 0 1 4 4v6M2 8v10M8 8v10"/></svg>
             </a>
             <a href="https://github.com/kilwish1997" target="_blank" rel="noopener noreferrer" style={{ color: '#b0b3c6', textDecoration: 'none', fontWeight: 600, fontSize: 28 }} title="GitHub" aria-label="GitHub">
