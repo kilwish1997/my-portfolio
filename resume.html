@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prince Tewatia - Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+  @page {
+    size: A4 portrait;
+    margin: 6.5mm 11mm;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    line-height: 1.33;
+    font-size: 9pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a {
+    color: #0b5394;
+    text-decoration: none;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    border-bottom: 1.5px solid #1a1a1a;
+  }
+
+  .name {
+    font-size: 20pt;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 2.5px;
+  }
+
+  .contact-info {
+    font-size: 8.7pt;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7px;
+    align-items: center;
+  }
+
+  .divider {
+    color: #888;
+  }
+
+  /* Section Styling */
+  .section {
+    margin-bottom: 7px;
+  }
+
+  .section:last-child {
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    font-size: 9.9pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #0b5394;
+    border-bottom: 1px solid #c2d4ec;
+    padding-bottom: 1.5px;
+    margin-bottom: 4px;
+  }
+
+  /* Summary */
+  .summary-text {
+    font-size: 8.7pt;
+    color: #2b2b2b;
+    text-align: justify;
+    line-height: 1.33;
+  }
+
+  /* Experience & Projects */
+  .item {
+    margin-bottom: 5px;
+  }
+
+  .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 9pt;
+  }
+
+  .item-title {
+    font-weight: 700;
+    color: #111;
+  }
+
+  .item-role {
+    font-weight: 600;
+    color: #222;
+  }
+
+  .item-company {
+    font-weight: 700;
+    color: #0b5394;
+  }
+
+  .item-location, .item-date {
+    font-size: 8.4pt;
+    color: #444;
+    font-weight: 500;
+  }
+
+  .item-sub {
+    display: flex;
+    justify-content: space-between;
+    font-size: 8.3pt;
+    color: #555;
+    margin-top: 0.5px;
+    margin-bottom: 1.5px;
+    font-style: italic;
+  }
+
+  .bullet-list {
+    list-style-type: square;
+    padding-left: 13px;
+    margin-top: 1.5px;
+  }
+
+  .bullet-list li {
+    font-size: 8.5pt;
+    color: #262626;
+    margin-bottom: 2px;
+    line-height: 1.31;
+  }
+
+  .bullet-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .bullet-list li strong {
+    color: #051b35;
+  }
+
+  /* Skills */
+  .skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8.5pt;
+  }
+
+  .skills-table td {
+    padding: 1.9px 0;
+    vertical-align: top;
+  }
+
+  .skill-category {
+    font-weight: 700;
+    color: #111;
+    width: 152px;
+    white-space: nowrap;
+  }
+
+  .skill-content {
+    color: #262626;
+    line-height: 1.31;
+  }
+
+  /* Education */
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 8.7pt;
+    margin-bottom: 2.8px;
+  }
+
+  .edu-row:last-child {
+    margin-bottom: 0;
+  }
+
+  .edu-left {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+  }
+
+  .edu-degree {
+    font-weight: 700;
+    color: #111;
+  }
+
+  .edu-school {
+    color: #333;
+  }
+
+  .edu-score {
+    font-weight: 600;
+    color: #0b5394;
+  }
+
+  .edu-year {
+    font-size: 8.4pt;
+    color: #444;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="name">Prince Tewatia</div>
+    <div class="contact-info">
+      <span>+91 9350602588</span>
+      <span class="divider">&#8226;</span>
+      <span>Palwal, Haryana, India (121102)</span>
+      <span class="divider">&#8226;</span>
+      <span><a href="mailto:princetew2001@gmail.com">princetew2001@gmail.com</a></span>
+      <span class="divider">&#8226;</span>
+      <span><a href="https://www.linkedin.com/in/prince-tewatia-181a42192/" target="_blank">linkedin.com/in/prince-tewatia</a></span>
+      <span class="divider">&#8226;</span>
+      <span><a href="https://github.com/kilwish1997" target="_blank">github.com/kilwish1997</a></span>
+      <span class="divider">&#8226;</span>
+      <span><a href="https://kilwish1997.github.io/" target="_blank">Portfolio</a></span>
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      Results-driven Software Engineer and Mobile Application Developer with 1+ years of hands-on experience specializing in building high-performance, cross-platform Android and iOS applications using Flutter and Dart, alongside robust Java backend services. Proficient in state management (Provider, BLoC), RESTful API &amp; WebSocket integration, local storage caching, QR code workflows, geofencing, and AI/LLM integration (Gemini AI, RAG). Demonstrated history of engineering industrial TV dashboard systems, real-time maintenance applications, and optimizing system efficiency by 20%.
+    </div>
+  </div>
+
+  <!-- Work Experience -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+    
+    <div class="item">
+      <div class="item-header">
+        <div>
+          <span class="item-company">Intellisync Company</span>
+          <span class="divider"> | </span>
+          <span class="item-role">App Developer (Flutter &amp; API Integration)</span>
+        </div>
+        <div class="item-date">March 2025 &#8211; Present</div>
+      </div>
+      <div class="item-sub">
+        <span>Remote Internship</span>
+        <span class="item-location">India</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Engineered <strong>TV Dashboard Apps</strong>, a comprehensive production telemetry and monitoring system for garment &amp; textile manufacturing tracking Cutting, Stitching, and Finishing modules.</li>
+        <li>Implemented secure RESTful API integrations with <strong>auto-rotating screen schedules</strong> and offline-first cache resilience using <strong>SharedPreferences</strong> for seamless 24/7 factory floor operation during network drops.</li>
+        <li>Delivered responsive cross-platform Flutter builds supporting <strong>Android, iOS, Web, Windows, macOS, and Linux</strong>, custom-optimized for large industrial TV display environments.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div>
+          <span class="item-company">Appwars Technologies Pvt Ltd</span>
+          <span class="divider"> | </span>
+          <span class="item-role">Java Developer Trainee</span>
+        </div>
+        <div class="item-date">June 2022 &#8211; September 2022</div>
+      </div>
+      <div class="item-sub">
+        <span>On-site Internship</span>
+        <span class="item-location">Noida, Uttar Pradesh, India</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Developed modular backend components using <strong>Java and Object-Oriented Design (OOP)</strong> principles, establishing clean, reusable code architecture.</li>
+        <li>Refactored legacy Java modules and database queries, increasing system processing efficiency and throughput by <strong>20%</strong>.</li>
+        <li>Participated across full Software Development Life Cycle (SDLC) — from requirements analysis and architecture design to unit testing, code review, and deployment.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Key Projects -->
+  <div class="section">
+    <div class="section-title">Key Projects</div>
+
+    <div class="item">
+      <div class="item-header">
+        <div>
+          <span class="item-title">Perplexity Bot App // Real-Time AI Chat</span>
+          <span class="divider"> | </span>
+          <span style="font-size: 8pt; color: #444;">Flutter, Dart, FastAPI, Google Gemini AI, WebSockets, RAG</span>
+        </div>
+        <div class="item-date"><a href="https://github.com/kilwish1997" target="_blank">github.com/kilwish1997</a></div>
+      </div>
+      <ul class="bullet-list">
+        <li>Built a cross-platform mobile AI assistant in Flutter featuring Markdown rendering, skeleton loading states, and fluid UI.</li>
+        <li>Developed a high-performance <strong>FastAPI backend</strong> utilizing <strong>WebSockets</strong> for real-time bidirectional token streaming with Google Gemini AI and implemented <strong>RAG (Retrieval-Augmented Generation)</strong> using cosine similarity algorithms to ground answers in relevant sources.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div>
+          <span class="item-title">HR &amp; Time Management System // ESS Mobile Suite</span>
+          <span class="divider"> | </span>
+          <span style="font-size: 8pt; color: #444;">Flutter, Dart, Geofencing, GPS APIs, REST APIs</span>
+        </div>
+        <div class="item-date"><a href="https://github.com/kilwish1997" target="_blank">github.com/kilwish1997</a></div>
+      </div>
+      <ul class="bullet-list">
+        <li>Engineered an enterprise Employee Self-Service (ESS) app streamlining field-staff attendance, leave workflows, and digital pay slip access.</li>
+        <li>Implemented <strong>real-time GPS geofencing</strong> for verified, tamper-resistant clock in/out tracking with interactive analytics dashboards.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div>
+          <span class="item-title">Machine Maintenance App // Supervisor &amp; Mechanic</span>
+          <span class="divider"> | </span>
+          <span style="font-size: 8pt; color: #444;">Flutter, Dart, QR Scanner, REST APIs</span>
+        </div>
+        <div class="item-date"><a href="https://github.com/kilwish1997" target="_blank">github.com/kilwish1997</a></div>
+      </div>
+      <ul class="bullet-list">
+        <li>Engineered a mobile breakdown tracking app for factory supervisors &amp; mechanics, enabling instant <strong>QR-code machine scanning</strong>, ticket logging, and real-time repair lifecycle management.</li>
+        <li>Built mechanic dispatch workflows, spare parts replacement logging, and <strong>downtime analytics dashboards</strong> to minimize plant equipment idle time.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div>
+          <span class="item-title">Café Management Desktop Suite</span>
+          <span class="divider"> | </span>
+          <span style="font-size: 8pt; color: #444;">Java, Java Swing / JFrame, MySQL, JDBC, NetBeans</span>
+        </div>
+        <div class="item-date"><a href="https://github.com/kilwish1997" target="_blank">github.com/kilwish1997</a></div>
+      </div>
+      <ul class="bullet-list">
+        <li>Created a full-featured desktop management system with staff authentication, table-side order routing, real-time inventory ledger, and automated sales reporting.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Technical Skills -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td class="skill-category">Mobile &amp; Frameworks:</td>
+        <td class="skill-content">Flutter, Dart, Android &amp; iOS App Development, Cross-Platform Builds (Desktop/Web/Mobile), Responsive UI/UX</td>
+      </tr>
+      <tr>
+        <td class="skill-category">State &amp; Architecture:</td>
+        <td class="skill-content">Provider, BLoC, GetX, Clean Architecture, MVC/MVVM, Object-Oriented Programming (OOP), SOLID Principles</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Languages &amp; Backend:</td>
+        <td class="skill-content">Java (Core Java), Python, JavaScript, FastAPI, RESTful APIs, WebSockets, JSON Parsing, HTTP Client</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Databases &amp; Storage:</td>
+        <td class="skill-content">MySQL, SQLite, SharedPreferences, Local Caching, JDBC, ACID Transactions</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Specialized &amp; Mobile APIs:</td>
+        <td class="skill-content">QR Code &amp; Barcode Scanning, Camera APIs, Geofencing &amp; GPS APIs, Google Gemini AI Integration, RAG (Cosine Similarity)</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Developer Ecosystem:</td>
+        <td class="skill-content">Git, GitHub, Android Studio, VS Code, NetBeans, Postman, Linux/Unix, SDLC Methodologies</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    
+    <div class="edu-row">
+      <div class="edu-left">
+        <span class="edu-degree">Bachelor of Technology (B.Tech) - Computer Science &amp; Engineering</span>
+        <span class="divider">|</span>
+        <span class="edu-school">MVN University</span>
+        <span class="divider">|</span>
+        <span class="edu-score">CGPA: 7.5</span>
+      </div>
+      <div class="edu-year">2020 &#8211; 2024</div>
+    </div>
+
+    <div class="edu-row">
+      <div class="edu-left">
+        <span class="edu-degree">Senior Secondary (Class XII - CBSE)</span>
+        <span class="divider">|</span>
+        <span class="edu-school">JD Public School, Palwal</span>
+        <span class="divider">|</span>
+        <span class="edu-score">Score: 70%</span>
+      </div>
+      <div class="edu-year">2018 &#8211; 2020</div>
+    </div>
+
+    <div class="edu-row">
+      <div class="edu-left">
+        <span class="edu-degree">Secondary School Examination (Class X - CBSE)</span>
+        <span class="divider">|</span>
+        <span class="edu-school">JD Public School, Palwal</span>
+      </div>
+      <div class="edu-year">2017 &#8211; 2018</div>
+    </div>
+  </div>
+
+</body>
+</html>
