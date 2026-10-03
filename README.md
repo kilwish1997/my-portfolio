@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-kilwish1997.github.io%2Fmy--portfolio-00eaff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kilwish1997.github.io/my-portfolio)
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-kilwish1997.github.io%2Fmy--portfolio-00eaff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kilwish1997.github.io/my-portfolio/)
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![Flutter](https://img.shields.io/badge/Flutter-Specialist-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-Language-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
@@ -13,7 +13,7 @@
 **Modern, responsive, and high-performance developer portfolio built with React 19.**  
 Showcasing cross-platform mobile engineering with **Flutter & Dart**, full-stack web platforms (**Next.js**, **React**), and real-time backend integrations.
 
-[**Explore Live Website »**](https://kilwish1997.github.io/my-portfolio) · [**View Projects**](#-featured-projects) · [**Contact Me**](#-connect--socials)
+[**Explore Live Website »**](https://kilwish1997.github.io/my-portfolio/) · [**View Projects**](#-featured-projects) · [**Contact Me**](#-connect--socials)
 
 </div>
 
@@ -194,7 +194,7 @@ Refer to [EMAILJS_SETUP.md](EMAILJS_SETUP.md) for detailed configuration instruc
 
 ## 📬 Connect & Socials
 
-- **Portfolio**: [kilwish1997.github.io/my-portfolio](https://kilwish1997.github.io/my-portfolio)
+- **Portfolio**: [kilwish1997.github.io/my-portfolio](https://kilwish1997.github.io/my-portfolio/)
 - **LinkedIn**: [linkedin.com/in/prince-tewatia-181a42192](https://www.linkedin.com/in/prince-tewatia-181a42192/)
 - **GitHub**: [@kilwish1997](https://github.com/kilwish1997)
 - **Email**: [princetew2001@gmail.com](mailto:princetew2001@gmail.com)
